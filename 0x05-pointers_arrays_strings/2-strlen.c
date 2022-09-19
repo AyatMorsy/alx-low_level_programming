@@ -1,0 +1,13 @@
+#include <stdio.h>
+/**
+ * _strlen - find the length of a stri
+ * @s: pointer to the string to check
+ * Return: void
+ */
+int _strlen(char *s)
+{
+int i = 0;
+while (s[i])
+       i++;
+return (i);
+}
